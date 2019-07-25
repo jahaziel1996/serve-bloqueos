@@ -1,0 +1,56 @@
+{
+    "consultaCuenta":{
+        "cuenta": "1234323",
+        "nombreCliente": "Jose Roman",
+        "consultaSaldo": [{
+            "title": "Saldo 1",
+            "saldo": "4534345"
+        },{
+            "title": "Saldo 2",
+            "saldo": "4534345"
+        },{
+            "title": "Saldo 3",
+            "saldo": "4534345"
+        }],
+        "bloqueoDesbloqueo":[{
+            "fechaBloqueo": "24/07/2019",
+            "usuario": "Roman",
+            "cr": "4334",
+            "claveBloqueo": "1234",
+            "motivoBloqueo": "Sin uso"
+        },{
+            "fechaBloqueo": "29/07/2019",
+            "usuario": "Tomas",
+            "cr": "4334",
+            "claveBloqueo": "1234",
+            "motivoBloqueo": "Sin uso"
+        },{
+            "fechaBloqueo": "24/09/2019",
+            "usuario": "Libia",
+            "cr": "4334",
+            "claveBloqueo": "1234",
+            "motivoBloqueo": "Sin uso"
+        },{
+            "fechaBloqueo": "24/07/2012",
+            "usuario": "Juan",
+            "cr": "4334",
+            "claveBloqueo": "1234",
+            "motivoBloqueo": "Sin uso"
+        }],
+        "cuentaInactiva":{
+            "status": "Bloqueda",            
+            "claveBloqueo": "Estatus"
+        }
+    },
+    "guardarBloqueo":{
+        "response": "success",
+        "numeroCuenta": "23433"
+    },
+    "guardarDesbloqueo":{
+        "response": "success",
+        "numeroCuenta": "23433"
+    },
+    "cerrarSesion":{
+        "response": "true"
+    }
+}
