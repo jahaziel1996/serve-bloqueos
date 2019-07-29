@@ -2,16 +2,10 @@
     "consultaCuenta":{
         "cuenta": "1234323",
         "nombreCliente": "Jose Roman",
-        "consultaSaldo": [{
-            "title": "Saldo 1",
-            "saldo": "4534345"
-        },{
-            "title": "Saldo 2",
-            "saldo": "4534345"
-        },{
-            "title": "Saldo 3",
-            "saldo": "4534345"
-        }],
+        "consultaSaldo": {
+            "saldo":"12343",
+            "mensaje": "Cuenta con bloqueo(s)"
+        },
         "bloqueoDesbloqueo":[{
             "fechaBloqueo": "24/07/2019",
             "usuario": "Roman",
